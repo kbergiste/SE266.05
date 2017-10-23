@@ -19,3 +19,4 @@ function addActor($db, $firstname, $lastname, $dob, $height){
         die("There was a problem adding the actor.");
     }
 }
+require_once("actorform.php");
