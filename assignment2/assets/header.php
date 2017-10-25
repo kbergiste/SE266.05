@@ -17,8 +17,8 @@
 <body>
 <header>
     <nav>
-        <a href="http://localhost/SE26605/assignment2/assets/actoradd.php"> Add </a>
-        <a href="F:\xampp05\xampp\htdocs\SE26605\assignment2\assets\actorform.php"> View </a>
+        <a href="http://localhost/SE26605/assignment2/index.php"> Home </a> | <a href="http://localhost/SE26605/assignment2/assets/actoradd.php"> Add </a> | <a href="http://localhost/SE26605/assignment2/assets/actorview.php"> View </a>
+        <h1>Actors</h1>
     </nav>
 </header>
 <section>

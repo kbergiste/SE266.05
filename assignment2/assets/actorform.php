@@ -7,10 +7,10 @@
  */
 
 ?>
-<form method="post" action="#">
+<form action="#" method="post">
     First Name: <input type="text" name="firstname" value="" /><br />
     Last Name: <input type="text" name="lastname" value="" /><br />
-    Date of Birth: <input type="text" name="dob" value="" /><br />
+    Date of Birth: <input type="date" name="dob" id="dob" value="" /><br />
     Height: <input type="text" name="height" value="" /><br />
-    <input type="submit" id="foo" name="action" value="Add" />
+    <input type="submit" name="action" value="Add" />
 </form>
