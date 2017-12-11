@@ -8,7 +8,7 @@
 require_once("./dbconn.php");
 require_once("./actors.php");
 include_once("./header.php");
-require_once("actorform.php");
+require_once("./actorform.php");
 function addActor($db, $firstname, $lastname, $dob, $height){
     try {
         $sql = $db->prepare("INSERT INTO actors VALUES (null, :firstname, :lastname, :dob, :height)");
